@@ -1,4 +1,4 @@
-# Jinfeng Zhuang
+# Jinfeng
 
 该主页采用Markdown语法编写，用于简单描述我的工作信息（崇尚基础设施建设）。
 
@@ -31,6 +31,14 @@
           x++;
         }
       }
+
+## 我的[Github](https://github.com/kavin-zhuang/)项目
+
+* [latex](https://github.com/kavin-zhuang/latex): latex demos for publish
+* [commonlib](https://github.com/kavin-zhuang/commonlib): my library to support development
+* [linux-practice](https://github.com/kavin-zhuang/linux-practice): linux application framework such as tcp/udp clients
+* [linux-admin](https://github.com/kavin-zhuang/linux-admin): how to use linux
+* [zos](https://github.com/kavin-zhuang/zos): my rtos practice, suspend for a long time
 
 ## 学习和工作经历
 
