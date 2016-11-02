@@ -1,6 +1,8 @@
 # Jinfeng
 
-本人爱好基础科学，崇尚基础设施建设。
+![avatar](avatar.png)
+
+爱好基础科学，崇尚基础设施建设。
 
 ## 我的[Github](https://github.com/kavin-zhuang/)项目
 
