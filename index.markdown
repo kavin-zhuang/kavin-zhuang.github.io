@@ -2,6 +2,8 @@
 
 爱好基础科学，崇尚基础设施建设。
 
+[编码规范](编码规范.html)
+
 ## 我的[Github](https://github.com/kavin-zhuang/)项目
 
 * [latex](https://github.com/kavin-zhuang/latex): latex demos for publish
