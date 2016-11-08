@@ -10,7 +10,8 @@
 联系我：
 
 * 邮箱：kavin.zhuang@gmail.com
-* 领英：www.linkedin.com/in/jinfeng-zhuang
+* 领英：https://www.linkedin.com/in/jinfeng-zhuang/
+* 豆瓣：https://www.douban.com/people/jinfeng-zhuang/
 
 ## 我的[Github](https://github.com/kavin-zhuang/)项目
 
