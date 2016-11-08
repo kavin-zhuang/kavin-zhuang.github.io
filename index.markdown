@@ -7,7 +7,10 @@
 * [英文简历下载]()
 * [中文简历下载]()
 
-联系我请通过邮箱：kavin.zhuang@gmail.com
+联系我：
+
+* 邮箱：kavin.zhuang@gmail.com
+* 领英：www.linkedin.com/in/jinfeng-zhuang
 
 ## 我的[Github](https://github.com/kavin-zhuang/)项目
 
@@ -29,20 +32,26 @@
 
 ## 项目经验
 
-* [西摩智能水壶](http://www.ismal.cn/)
+* 操作系统
 
-* [网龙哈喽儿童故事机](http://hello.99.com/)
+  - [基于STM32F205的RTOS开发](https://github.com/kavin-zhuang/zos)
 
-* [基于STM32F205的RTOS开发](https://github.com/kavin-zhuang/zos)
+  - Cortex-A9核心部件驱动开发
+  
+  - 变量监控模块
+  
+  - 系统任务运行时间轴模块
+  
+* BSP开发
 
-* 802.11网络故障支持
+  - TI DM3730 BSP开发
 
-* Cortex-A9核心部件驱动开发
+  - Freescale i.MX6 BSP开发
 
-* TI DM3730 BSP开发
+* 基于802.11网络
 
-* Freescale i.MX6 BSP开发
+  - [西摩智能水壶](http://www.ismal.cn/)
 
-* 变量监控模块
-
-* 系统任务运行时间轴模块
+  - [网龙哈喽儿童故事机](http://hello.99.com/)
+  
+  - 802.11网络故障支持
