@@ -1,6 +1,13 @@
 # Jinfeng
 
-嵌入式软件工程师[[工程师的自我修养](工程师的自我修养.html)]，爱好基础科学，崇尚基础设施建设。
+爱运动，爱好基础科学（如[分子生物学](https://en.wikipedia.org/wiki/Molecular_biology)），崇尚基础设施建设。
+
+2013年毕业于西南科技大学，获得学士学位。目前为[华元创信](http://www.ntesec.com.cn/)效力，任职嵌入式软件工程师[[工程师的自我修养](工程师的自我修养.html)]。因未来还有无数挑战，崇尚效率高的工作方式，会在工作中让技术积累与研发平台形成正向反馈。
+
+* [英文简历下载]()
+* [中文简历下载]()
+
+联系我请通过邮箱：kavin.zhuang@gmail.com
 
 ## 我的[Github](https://github.com/kavin-zhuang/)项目
 
@@ -20,20 +27,22 @@
 
 * [zos](https://github.com/kavin-zhuang/zos): my rtos practice, suspend for a long time
 
-## 学习和工作经历
+## 项目经验
 
-* 2009年-2013年：西南科技大学
+* [西摩智能水壶](http://www.ismal.cn/)
 
-  获得学士学位。
+* [网龙哈喽儿童故事机](http://hello.99.com/)
 
-* 2013年-2014年：成都 Geeya [实习]软件研发工程师
+* [基于STM32F205的RTOS开发](https://github.com/kavin-zhuang/zos)
 
-  主要开发机顶盒软件
-  
-* 2014年-2015年：上海 MXCHIP 现场技术支持
+* 802.11网络故障支持
 
-  主要开发802.11智能设备，支持各地客户在802.11网络应用中遇到的问题
-  
-* 2015年-至今：上海 NTESEC 软件研发工程师
+* Cortex-A9核心部件驱动开发
 
-  主要开发基于i.MX6,ZYNQ7K芯片的CSP和BSP
+* TI DM3730 BSP开发
+
+* Freescale i.MX6 BSP开发
+
+* 变量监控模块
+
+* 系统任务运行时间轴模块
