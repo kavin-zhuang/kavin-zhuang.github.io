@@ -11,6 +11,13 @@ a {
   text-decoration: none;
   color: blue;
 }
+table {
+  //border: solid #000 1px;
+}
+td 
+{ 
+  border: solid #000 1px; 
+} 
 </style>
 </head>
 <body>
@@ -26,61 +33,67 @@ a {
 <li>邮箱：kavin.zhuang@gmail.com</li>
 <li>领英：<a href="https://www.linkedin.com/in/jinfeng-zhuang/">https://www.linkedin.com/in/jinfeng-zhuang/</a></li>
 <li>豆瓣：<a href="https://www.douban.com/people/jinfeng-zhuang/">https://www.douban.com/people/jinfeng-zhuang/</a></li>
+<li>Github：<a href="https://github.com/kavin-zhuang/">https://github.com/kavin-zhuang/</a></li>
 </ul>
-<h2 id="-github-https-github-com-kavin-zhuang-">我的<a href="https://github.com/kavin-zhuang/">Github</a>项目</h2>
-<ul>
-<li><p><a href="https://github.com/kavin-zhuang/latex">latex</a>: latex demos for publish</p>
-<ul>
-<li>高中英语试卷模板</li>
-</ul>
-</li>
-<li><p><a href="https://github.com/kavin-zhuang/commonlib">commonlib</a>: my library to support development</p>
-<ul>
-<li>hexshow: 以16进制和ascii显示缓冲区数据</li>
-<li>ringbuf: 简单的环形缓冲区实现</li>
-<li>regshow: 用于一大块32位寄存器的显示</li>
-</ul>
-</li>
-<li><p><a href="https://github.com/kavin-zhuang/linux-practice">linux-practice</a>: linux application framework such as tcp/udp clients</p>
-</li>
-<li><p><a href="https://github.com/kavin-zhuang/linux-admin">linux-admin</a>: how to use linux</p>
-</li>
-<li><p><a href="https://github.com/kavin-zhuang/zos">zos</a>: my rtos practice, suspend for a long time</p>
-</li>
-</ul>
-<h2 id="-">项目经验</h2>
-<ul>
-<li><p>操作系统</p>
-<ul>
-<li><p><a href="https://github.com/kavin-zhuang/zos">基于STM32F205的RTOS开发</a></p>
-</li>
-<li><p>Cortex-A9核心部件驱动开发</p>
-</li>
-<li><p>变量监控模块</p>
-</li>
-<li><p>系统任务运行时间轴模块</p>
-</li>
-</ul>
-</li>
-<li><p>BSP开发</p>
-<ul>
-<li><p>TI DM3730 BSP开发</p>
-</li>
-<li><p>Freescale i.MX6 BSP开发</p>
-</li>
-</ul>
-</li>
-<li><p>基于802.11网络</p>
-<ul>
-<li><p><a href="http://www.ismal.cn/">西摩智能水壶</a></p>
-</li>
-<li><p><a href="http://hello.99.com/">网龙哈喽儿童故事机</a></p>
-</li>
-<li><p>802.11网络故障支持</p>
-</li>
-</ul>
-</li>
-</ul>
+<p>项目经验：</p>
+<table>
+<thead>
+<tr>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>用户层</td>
+<td>latex: <a href="https://github.com/kavin-zhuang/latex">高中英语试卷模板</a></td>
+<td><a href="https://github.com/kavin-zhuang/linux-admin">Linux-Admin</a></td>
+</tr>
+<tr>
+<td>应用开发</td>
+<td><a href="https://github.com/kavin-zhuang/linux-practice">Linux-Practice</a></td>
+<td><a href="http://www.ismal.cn/">西摩-智能水壶</a></td>
+<td><a href="http://hello.99.com/">网龙-哈喽儿童故事机</a></td>
+</tr>
+<tr>
+<td>通信协议</td>
+<td><a href="http://devsmart.jd.com/dev/index">京东智能云客户端</a>实现</td>
+<td><a href="http://www.gizwits.com/">机智云</a>客户端实现</td>
+</tr>
+<tr>
+<td>系统模块</td>
+<td>802.11网络问题技术支持</td>
+<td>变量监控模块</td>
+<td>系统任务运行时间轴模块</td>
+</tr>
+<tr>
+<td>库</td>
+<td>通用库: <a href="https://github.com/kavin-zhuang/commonlib">hexshow</a>, <a href="https://github.com/kavin-zhuang/commonlib">ringbuf</a>, <a href="https://github.com/kavin-zhuang/commonlib">regshow</a></td>
+<td>基于ReWorks的Linux兼容层设计与实现</td>
+</tr>
+<tr>
+<td>内核</td>
+<td>自己设计和实现的内核-<a href="https://github.com/kavin-zhuang/zos">ZOS</a></td>
+<td>udelay</td>
+</tr>
+<tr>
+<td>BSP: SoC外设驱动</td>
+<td>TI DM3730 BSP开发：触摸屏</td>
+<td>Freescale i.MX6 BSP开发：触摸屏，图形处理单元-IPU，CAN驱动，中断处理单元-GIC，IOMUX，</td>
+</tr>
+<tr>
+<td>CSP: SoC核心驱动</td>
+<td>Cortex-A9 启动代码，多核支持，MMU支持，Cache同步支持等</td>
+</tr>
+<tr>
+<td>FPGA</td>
+</tr>
+<tr>
+<td>数字电路</td>
+</tr>
+<tr>
+<td>模拟电路</td>
+</tr>
+</tbody>
+</table>
 
 </body>
 </html>

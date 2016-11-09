@@ -12,47 +12,30 @@
 * 邮箱：kavin.zhuang@gmail.com
 * 领英：https://www.linkedin.com/in/jinfeng-zhuang/
 * 豆瓣：https://www.douban.com/people/jinfeng-zhuang/
+* Github：https://github.com/kavin-zhuang/
 
-## 我的[Github](https://github.com/kavin-zhuang/)项目
+项目经验：
 
-* [latex](https://github.com/kavin-zhuang/latex): latex demos for publish
+||
+|---|
+|用户层 | latex: [高中英语试卷模板][1]| [Linux-Admin][2] |
+|应用开发 | [Linux-Practice][3] | [西摩-智能水壶][6] | [网龙-哈喽儿童故事机][7] |
+|通信协议 | [京东智能云客户端][8]实现 | [机智云][9]客户端实现 |
+|系统模块 | 802.11网络问题技术支持 | 变量监控模块 | 系统任务运行时间轴模块 | 
+|库| 通用库: [hexshow][4], [ringbuf][4], [regshow][4] | 基于ReWorks的Linux兼容层设计与实现 |
+|内核| 自己设计和实现的内核-[ZOS][5] | udelay |
+|BSP: SoC外设驱动| TI DM3730 BSP开发：触摸屏 | Freescale i.MX6 BSP开发：触摸屏，图形处理单元-IPU，CAN驱动，中断处理单元-GIC，IOMUX， |
+|CSP: SoC核心驱动| Cortex-A9 启动代码，多核支持，MMU支持，Cache同步支持等 |
+|FPGA|
+|数字电路|
+|模拟电路|
 
-  - 高中英语试卷模板
-
-* [commonlib](https://github.com/kavin-zhuang/commonlib): my library to support development
-
-  - hexshow: 以16进制和ascii显示缓冲区数据
-  - ringbuf: 简单的环形缓冲区实现
-  - regshow: 用于一大块32位寄存器的显示
-
-* [linux-practice](https://github.com/kavin-zhuang/linux-practice): linux application framework such as tcp/udp clients
-
-* [linux-admin](https://github.com/kavin-zhuang/linux-admin): how to use linux
-
-* [zos](https://github.com/kavin-zhuang/zos): my rtos practice, suspend for a long time
-
-## 项目经验
-
-* 操作系统
-
-  - [基于STM32F205的RTOS开发](https://github.com/kavin-zhuang/zos)
-
-  - Cortex-A9核心部件驱动开发
-  
-  - 变量监控模块
-  
-  - 系统任务运行时间轴模块
-  
-* BSP开发
-
-  - TI DM3730 BSP开发
-
-  - Freescale i.MX6 BSP开发
-
-* 基于802.11网络
-
-  - [西摩智能水壶](http://www.ismal.cn/)
-
-  - [网龙哈喽儿童故事机](http://hello.99.com/)
-  
-  - 802.11网络故障支持
+[1]: https://github.com/kavin-zhuang/latex
+[2]: https://github.com/kavin-zhuang/linux-admin
+[3]: https://github.com/kavin-zhuang/linux-practice
+[4]: https://github.com/kavin-zhuang/commonlib
+[5]: https://github.com/kavin-zhuang/zos
+[6]: http://www.ismal.cn/
+[7]: http://hello.99.com/
+[8]: http://devsmart.jd.com/dev/index
+[9]: http://www.gizwits.com/
