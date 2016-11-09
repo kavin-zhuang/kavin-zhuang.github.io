@@ -19,12 +19,12 @@
 ||
 |---|
 |用户层 | latex: [高中英语试卷模板][1]| [Linux-Admin][2] |
-|应用开发 | [Linux-Practice][3] | [西摩-智能水壶][6] | [网龙-哈喽儿童故事机][7] |
+|应用开发 | [Linux-Practice][3] | [西摩-智能水壶][6] | [网龙-哈喽儿童故事机][7] | 2G透传模块 |
 |通信协议 | [京东智能云客户端][8]实现 | [机智云][9]客户端实现 |
 |系统模块 | 802.11网络问题技术支持 | 变量监控模块 | 系统任务运行时间轴模块 |
 |库| 通用库: [hexshow][4], [ringbuf][4], [regshow][4] | 基于ReWorks的Linux兼容层设计与实现 |
 |内核| 自己设计和实现的内核-[ZOS][5] | udelay |
-|BSP: SoC外设驱动| TI DM3730 BSP开发：触摸屏 | Freescale i.MX6 BSP开发：触摸屏，图形处理单元-IPU，CAN驱动，中断处理单元-GIC，IOMUX， |
+|BSP: SoC外设驱动| TI DM3730 BSP开发：触摸屏 | Freescale i.MX6 BSP开发：触摸屏，图形处理单元-IPU，CAN驱动，中断处理单元-GIC，IOMUX | STM32F205 TIMER, WATCHDOG, I2C, SPI, USART, RTC... |
 |CSP: SoC核心驱动| Cortex-A9 启动代码，多核支持，MMU支持，Cache同步支持等 |
 |编码| [跨平台工具链][10] |
 |FPGA|
