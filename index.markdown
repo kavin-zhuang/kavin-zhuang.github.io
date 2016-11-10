@@ -19,7 +19,7 @@
 ||
 |---|
 |用户层 | latex: [高中英语试卷模板][1]| [Linux-Admin][2] |
-|应用开发 | [Linux-Practice][3] | [西摩-智能水壶][6] | [网龙-哈喽儿童故事机][7] | 2G透传模块 |
+|应用开发 | [小智电水壶][6](WiFi) | [哈喽儿童故事机][7](WiFi) | 透传模块(2G) | Practices: [Linux][3],[Reworks][12],[Java][13],[Win32] [11] [脚本][14] |
 |通信协议 | [京东智能云客户端][8]实现 | [机智云][9]客户端实现 |
 |系统模块 | 802.11网络问题技术支持 | 变量监控模块 | 系统任务运行时间轴模块 |
 |库| 通用库: [hexshow][4], [ringbuf][4], [regshow][4] | 基于ReWorks的Linux兼容层设计与实现 |
@@ -41,3 +41,7 @@
 [8]: http://devsmart.jd.com/dev/index
 [9]: http://www.gizwits.com/
 [10]: https://github.com/kavin-zhuang/cross-compiler
+[11]: https://github.com/kavin-zhuang/win32-practice
+[12]: https://github.com/kavin-zhuang/reworks-practice
+[13]: https://github.com/kavin-zhuang/java-practice
+[14]: https://github.com/kavin-zhuang/scripts-practice
