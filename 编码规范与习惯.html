@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Jinfeng</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+body {
+  font-family: segoe print;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+table {
+  border-collapse:collapse;
+}
+td{ 
+  border: solid #000 1px; 
+} 
+</style>
+</head>
+<body>
+<h1 id="-">编码规范与习惯</h1>
+<p>2016.11.1, by Jinfeng Zhuang <a href="&#109;&#x61;&#105;&#108;&#116;&#111;&#x3a;&#x6b;&#x61;&#118;&#x69;&#x6e;&#46;&#122;&#104;&#x75;&#x61;&#110;&#103;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#x6b;&#x61;&#118;&#x69;&#x6e;&#46;&#122;&#104;&#x75;&#x61;&#110;&#103;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a></p>
+<p>规范作用于整个生命周期，而在代码发布之前，编码习惯很有帮助。</p>
+<ul>
+<li><p>编码格式：GBK</p>
+</li>
+<li><p>将Tab键转换成两个空格</p>
+</li>
+<li><p>最大行长度80：原则上</p>
+</li>
+<li><p>文件声明:</p>
+<pre><code>  /*
+   * filename.c
+   * Copyright (C) 2016.11, jinfeng &lt;kavin.zhuang@gmail.com&gt;
+   * 
+   * descriptions
+   */</code></pre>
+</li>
+<li><p>文件分段描述：就像从左边长出一个柱子，稳定的结构，适用于分割</p>
+<pre><code>  /*
+   *==============================================================================
+   * Macros
+   *==============================================================================
+   */</code></pre>
+</li>
+<li><p>注释：双斜杠用于临时注释，后期去掉</p>
+<pre><code>  /* note */</code></pre>
+</li>
+<li><p>源码注意事项：用 NOTE，WARNING 等关键字标注</p>
+<pre><code>  /* NOTE: */
+  /* WARNING: */</code></pre>
+</li>
+<li><p>函数风格：</p>
+<pre><code>  void foo(int x)
+  {
+    if(x) {
+      x++;
+    }
+  }</code></pre>
+</li>
+<li><p>指针用NULL初始化，在回收时根据Value检查合法性</p>
+</li>
+<li><p>需要管理资源时，发现异常后goto到函数末尾，回收它们</p>
+</li>
+<li><p>调试工具</p>
+<pre><code>  #define TRACE(fmt, ...) \
+    printf(&quot;[%s:%d] &quot; fmt, __FUNCTION__, __LINE__, ##__VAR_ARGS__);</code></pre>
+</li>
+<li><p>需要修改的地方加上临时注释</p>
+<pre><code>  // need fix</code></pre>
+</li>
+</ul>
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
