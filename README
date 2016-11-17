@@ -11,9 +11,16 @@
 * CSS½Å±¾£º
 
     body {
-      font-family: Lucida Handwriting;
+      font-family: segoe print;
     }
     a {
       text-decoration: none;
       color: blue;
     }
+    table {
+      border-collapse:collapse;
+    }
+    td
+    { 
+      border: solid #000 1px; 
+    } 

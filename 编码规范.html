@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Jinfeng</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+body {
+  font-family: segoe print;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+table {
+  border-collapse:collapse;
+}
+td
+{ 
+  border: solid #000 1px; 
+} 
+</style>
+</head>
+<body>
+<h1 id="-">编码规范</h1>
+<p>2016.11.1, by Jinfeng Zhuang <a href="&#x6d;&#x61;&#x69;&#108;&#x74;&#111;&#58;&#x6b;&#97;&#x76;&#105;&#x6e;&#x2e;&#x7a;&#x68;&#x75;&#x61;&#x6e;&#x67;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x6b;&#97;&#x76;&#105;&#x6e;&#x2e;&#x7a;&#x68;&#x75;&#x61;&#x6e;&#x67;&#x40;&#x67;&#x6d;&#x61;&#x69;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></p>
+<ul>
+<li><p>编码格式：GBK</p>
+</li>
+<li><p>将Tab键转换成两个空格</p>
+</li>
+<li><p>最大行长度80：原则上</p>
+</li>
+<li><p>文件声明:</p>
+<pre><code>  /*
+   * filename.c
+   * Copyright (C) 2016.11, jinfeng &lt;kavin.zhuang@gmail.com&gt;
+   * 
+   * descriptions
+   */</code></pre>
+</li>
+<li><p>文件分段描述：就像从左边长出一个柱子，稳定的结构，适用于分割</p>
+<pre><code>  /*
+   *==============================================================================
+   * Macros
+   *==============================================================================
+   */</code></pre>
+</li>
+<li><p>注释：双斜杠用于临时注释，后期去掉</p>
+<pre><code>  /* note */</code></pre>
+</li>
+<li><p>源码注意事项：用 NOTE，WARNING 等关键字标注</p>
+<pre><code>  /* NOTE: */
+  /* WARNING: */</code></pre>
+</li>
+<li><p>函数风格：</p>
+<pre><code>  void foo(int x)
+  {
+    if(x) {
+      x++;
+    }
+  }</code></pre>
+</li>
+</ul>
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
