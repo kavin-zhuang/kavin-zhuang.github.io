@@ -2,7 +2,7 @@
 
 [嵌入式软件工程师](工程师的自我修养.html)，崇尚基础设施建设。2013年毕业于西南科技大学，目前为[华元创信](http://www.ntesec.com.cn/)效力。
 
-联系我请通过邮箱：kavin.zhuang@gmail.com，或者 [领英][15], [豆瓣][16], [Github][17]，[CSDN][18]，[StackOverflow][19] 。
+联系我请通过邮箱：kavin.zhuang@gmail.com，或者 [领英][15], [豆瓣][16], [Github][17]，[CSDN][18]，[StackOverflow][19]，[哔哩哔哩][22] 。
 
 项目经验：
 
@@ -38,3 +38,4 @@
 [19]: http://stackoverflow.com/
 [20]: 编码规范.html
 [21]: https://github.com/kavin-zhuang/timeline
+[22]: http://space.bilibili.com/58825645/#!/index
