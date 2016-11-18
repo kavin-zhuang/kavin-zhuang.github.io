@@ -36,7 +36,7 @@
 [17]: https://github.com/kavin-zhuang/
 [18]: http://my.csdn.net/kavin_zhuang
 [19]: http://stackoverflow.com/
-[20]: ±àÂë¹æ·¶.html
+[20]: ±àÂë¹æ·¶ÓëÏ°¹ß.html
 [21]: https://github.com/kavin-zhuang/timeline
 [22]: http://space.bilibili.com/58825645/#!/index
 [23]: https://github.com/kavin-zhuang/password_generator
