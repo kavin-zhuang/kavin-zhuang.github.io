@@ -21,55 +21,66 @@ td{
 </head>
 <body>
 <h1 id="-">编码规范与习惯</h1>
-<p>2016.11.1, by Jinfeng Zhuang <a href="&#109;&#x61;&#105;&#108;&#116;&#111;&#x3a;&#x6b;&#x61;&#118;&#x69;&#x6e;&#46;&#122;&#104;&#x75;&#x61;&#110;&#103;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#x6b;&#x61;&#118;&#x69;&#x6e;&#46;&#122;&#104;&#x75;&#x61;&#110;&#103;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a></p>
-<p>规范作用于整个生命周期，而在代码发布之前，编码习惯很有帮助。</p>
+<p>2016.11.1, by Jinfeng Zhuang <a href="&#109;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x6b;&#97;&#x76;&#105;&#x6e;&#46;&#x7a;&#x68;&#x75;&#97;&#x6e;&#x67;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;">&#x6b;&#97;&#x76;&#105;&#x6e;&#46;&#x7a;&#x68;&#x75;&#97;&#x6e;&#x67;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#46;&#x63;&#111;&#x6d;</a></p>
+<p>规范作用于整个生命周期，而在代码发布之前，编码习惯 非常有帮助。</p>
+<h2 id="-">编码规范</h2>
 <ul>
-<li><p>编码格式：GBK</p>
-</li>
-<li><p>将Tab键转换成两个空格</p>
-</li>
-<li><p>最大行长度80：原则上</p>
+<li><p>编码格式：GBK，将Tab键转换成两个空格，原则上一行80个字符</p>
 </li>
 <li><p>文件声明:</p>
-<pre><code>  /*
-   * filename.c
-   * Copyright (C) 2016.11, jinfeng &lt;kavin.zhuang@gmail.com&gt;
-   * 
-   * descriptions
-   */</code></pre>
-</li>
-<li><p>文件分段描述：就像从左边长出一个柱子，稳定的结构，适用于分割</p>
-<pre><code>  /*
-   *==============================================================================
-   * Macros
-   *==============================================================================
-   */</code></pre>
-</li>
-<li><p>注释：双斜杠用于临时注释，后期去掉</p>
-<pre><code>  /* note */</code></pre>
-</li>
-<li><p>源码注意事项：用 NOTE，WARNING 等关键字标注</p>
-<pre><code>  /* NOTE: */
-  /* WARNING: */</code></pre>
+<pre><code>/*
+ * filename.c
+ * Copyright (C) 2016.11, jinfeng &lt;kavin.zhuang@gmail.com&gt;
+ * 
+ * descriptions
+ */</code></pre>
 </li>
 <li><p>函数风格：</p>
-<pre><code>  void foo(int x)
-  {
-    if(x) {
-      x++;
-    }
-  }</code></pre>
+<pre><code>void foo(int x)
+{
+  if(x) {
+    x++;
+  }
+}</code></pre>
 </li>
-<li><p>指针用NULL初始化，在回收时根据Value检查合法性</p>
+<li><p>文件分段描述：就像从左边长出一个柱子，稳定的结构，适用于分割</p>
+<pre><code>/*
+ *==============================================================================
+ * Temporary Area， Compiler Control, Macros, Local Types, Local Variables
+ * Local Functions
+ *==============================================================================
+ */</code></pre>
 </li>
+<li><p>注释：双斜杠用于临时注释，后期去掉</p>
+<pre><code>/* note */</code></pre>
+</li>
+<li><p>变量：指针用NULL初始化，数组写0，malloc之后要memset</p>
+</li>
+</ul>
+<h2 id="-">编码习惯</h2>
+<ul>
 <li><p>需要管理资源时，发现异常后goto到函数末尾，回收它们</p>
 </li>
-<li><p>调试工具</p>
-<pre><code>  #define TRACE(fmt, ...) \
-    printf(&quot;[%s:%d] &quot; fmt, __FUNCTION__, __LINE__, ##__VAR_ARGS__);</code></pre>
+<li><p>不要直接用 printf，用 TRACE 跟踪数据流，用 EXCEPTION 反应错误信息</p>
+<pre><code>#define PRINT(fmt, ...) \
+  printf(fmt, ##__VA_ARGS__)
+
+#define TRACE(fmt, ...) \
+  printf(&quot;TRACE: %s:%d: &quot; fmt &quot;\n&quot;, __FUNCTION__, __LINE__, ##__VA_ARGS__)
+
+#define EXCEPTION(fmt, ...) \
+  printf(&quot;EXCEPTION: %s:%d: &quot; fmt &quot;\n&quot;, __FUNCTION__, __LINE__, ##__VA_ARGS__)</code></pre>
+</li>
+<li><p>模块的错误信息管理</p>
 </li>
 <li><p>需要修改的地方加上临时注释</p>
-<pre><code>  // need fix</code></pre>
+<pre><code>// need fix</code></pre>
+</li>
+<li><p>错误信息在函数内部打印，发布时关闭，通过返回值告知调用者</p>
+</li>
+<li><p>源码注意事项：用 NOTE，WARNING 等关键字标注</p>
+<pre><code>/* NOTE: */
+/* WARNING: */</code></pre>
 </li>
 </ul>
 
