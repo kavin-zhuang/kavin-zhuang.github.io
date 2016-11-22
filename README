@@ -23,4 +23,7 @@
     td
     { 
       border: solid #000 1px; 
-    } 
+    }
+    code {
+      font-family: Courier New;
+    }
