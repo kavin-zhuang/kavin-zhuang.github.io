@@ -15,7 +15,7 @@
 |库| [通用库][4]，基于ReWorks的Linux兼容层设计与实现 |
 |内核| [我的内核][5]，SMP，AMP操作系统实践 |
 |驱动| ARM Cortex-A9 CSP，TI DM3730 BSP，Freescale i.MX6 BSP，ST STM32F205 BSP |
-|算法| Delaunay triangulation |
+|算法| Delaunay triangulation，AdaBoost + Camshift |
 |编码| [跨平台工具链][10]，[编码规范与习惯][20] |
 
 [1]: https://github.com/kavin-zhuang/latex
