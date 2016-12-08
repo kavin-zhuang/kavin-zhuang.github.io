@@ -2,7 +2,9 @@
 
 [嵌入式软件工程师](工程师的自我修养.html)，崇尚基础设施建设。2013年毕业于西南科技大学，目前为[华元创信](http://www.ntesec.com.cn/)效力。
 
-联系我请通过邮箱：kavin.zhuang@gmail.com，或者 [CSDN][18], [豆瓣][16], [Github][17], [StackOverflow][19], [领英][15], [微博][23]。
+职场：[领英][15]
+社交：[豆瓣][16], [微博][23]，[Google+][19]
+技术：[CSDN][18]，[Github][17]
 
 项目经验：
 
@@ -17,6 +19,8 @@
 |驱动| ARM Cortex-A9 CSP，TI DM3730 BSP，Freescale i.MX6 BSP，ST STM32F205 BSP |
 |算法| Delaunay triangulation，AdaBoost + Camshift |
 |编码| [跨平台工具链][10]，[编码规范与习惯][20] |
+
+邮箱：kavin.zhuang@gmail.com
 
 [1]: https://github.com/kavin-zhuang/latex
 [2]: https://github.com/kavin-zhuang/linux-admin
@@ -36,7 +40,7 @@
 [16]: https://www.douban.com/people/jinfeng-zhuang/
 [17]: https://github.com/kavin-zhuang/
 [18]: http://my.csdn.net/kavin_zhuang
-[19]: http://stackoverflow.com/
+[19]: https://plus.google.com/u/0/110253803156288443376
 [20]: 编码规范与习惯.html
 [21]: https://github.com/kavin-zhuang/timeline
 [22]: https://github.com/kavin-zhuang/password_generator
