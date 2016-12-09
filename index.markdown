@@ -3,7 +3,7 @@
 [嵌入式软件工程师](工程师的自我修养.html)，推崇 Ideas worth spreading ，热爱基础设施建设。2013年毕业于西南科技大学，目前为[华元创信](http://www.ntesec.com.cn/)效力。
 
 职场：[领英][15]
-社交：[豆瓣][16], [微博][23]，[Google+][19]
+社交：[豆瓣][16], [微博][23]，[Google+][19]，[色影无忌][24]
 技术：[CSDN][18]，[Github][17]
 
 项目经验：
@@ -45,3 +45,4 @@
 [21]: https://github.com/kavin-zhuang/timeline
 [22]: https://github.com/kavin-zhuang/password_generator
 [23]: http://weibo.com/kavinzhuang
+[24]: http://forum.xitek.com/forum.php
