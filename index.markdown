@@ -2,14 +2,12 @@
 
 [嵌入式软件工程师](工程师的自我修养.html)，推崇 Ideas worth spreading ，热爱基础设施建设。2013年毕业于西南科技大学，目前为[华元创信](http://www.ntesec.com.cn/)效力。
 
-职场：[领英][15]
-社交：[豆瓣][16], [微博][23]，[Google+][19]，[色影无忌][24]
-技术：[CSDN][18]，[Github][17]
+kavin.zhuang@gmail.com | [领英][15] | [豆瓣][16], [微博][23]，[Google+][19]，[色影无忌][24] | [CSDN][18]，[Github][17]
 
 项目经验：
 
-||
-|---|
+|||
+|---|---|
 |用户层 | [LaTeX][1]， [Linux-Admin][2] |
 |应用开发 | [小智电水壶][6](WiFi)，[哈喽儿童故事机][7](WiFi)，透传模块(2G)，[时间轴][21]，[密码生成器][22]，[Linux][3]，[Reworks][12]，[Java][13]，[Win32][11]，[脚本][14] |
 |通信协议 | [京东智能云客户端][8]，[机智云客户端][9] |
@@ -19,8 +17,6 @@
 |驱动| ARM Cortex-A9 CSP，TI DM3730 BSP，Freescale i.MX6 BSP，ST STM32F205 BSP |
 |算法| Delaunay triangulation，AdaBoost + Camshift |
 |编码| [跨平台工具链][10]，[编码规范与习惯][20] |
-
-邮箱：kavin.zhuang@gmail.com
 
 [1]: https://github.com/kavin-zhuang/latex
 [2]: https://github.com/kavin-zhuang/linux-admin
